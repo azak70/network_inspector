@@ -271,8 +271,6 @@ See `example/` for a minimal Flutter app showing integration.
   - Ensure analyzer passes and README includes code samples
   - Confirm example app builds: `flutter run` from `example/`
 
-## Branding
-- Add your logo at `docs/logo.png` and include it in the README header if desired.
 
 ## Support & Contact
 - GitHub: https://github.com/azak70/network_inspector
