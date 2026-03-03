@@ -1,0 +1,17 @@
+name: network_inspector
+description: In-app HTTP and GraphQL inspector for Flutter apps.
+version: 0.1.0
+homepage: https://github.com/azak70/network_inspector
+repository: https://github.com/azak70/network_inspector
+issue_tracker: https://github.com/azak70/network_inspector/issues
+documentation: https://github.com/azak70/network_inspector#readme
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
