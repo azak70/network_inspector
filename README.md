@@ -261,19 +261,7 @@ The detail view shows Request and Response tabs with headers and a collapsible J
 ## Example App
 See `example/` for a minimal Flutter app showing integration.
 
-## Publishing Checklist
-- Update `pubspec.yaml`:
-  - Remove `publish_to: "none"`
-  - Set `version`, `description`, and `homepage/repository`
-  - Add a `LICENSE` file (e.g., MIT) and `CHANGELOG.md`
-- Verify:
-  - `flutter pub publish --dry-run`
-  - Ensure analyzer passes and README includes code samples
-  - Confirm example app builds: `flutter run` from `example/`
-
-## Branding
-- Add your logo at `docs/logo.png` and include it in the README header if desired.
-
+ 
 ## Support & Contact
 - GitHub: https://github.com/azak70/chucker_flutter_inspector
 - Website: https://www.ahmetazak.com.tr
