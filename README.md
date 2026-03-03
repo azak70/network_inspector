@@ -27,7 +27,7 @@ Or use a local path during development:
 ```yaml
 dependencies:
   chucker_flutter_inspector:
-    path: packages/network_inspector
+  path: packages/chucker_flutter_inspector
 ```
 
 ## Quick Start
@@ -100,7 +100,7 @@ Instrument your `GraphQLClient` calls similarly:
 import 'dart:convert';
 import 'dart:typed_data';
 import 'package:graphql_flutter/graphql_flutter.dart';
-import 'package:azak_network_inspector/network_inspector.dart';
+import 'package:chucker_flutter_inspector/network_inspector.dart';
 
 Future<QueryResult> runQuery(GraphQLClient client, String query, Map<String, dynamic> variables) async {
   final id = NetworkInspector.instance.startRequest(
@@ -179,7 +179,7 @@ To capture low-level `dart:io` HttpClient traffic globally:
 import 'dart:io';
 import 'dart:typed_data';
 import 'dart:convert';
-import 'package:network_inspector/network_inspector.dart';
+import 'package:chucker_flutter_inspector/network_inspector.dart';
 
 class CapturingHttpOverrides extends HttpOverrides {
   @override
@@ -275,6 +275,6 @@ See `example/` for a minimal Flutter app showing integration.
 - Add your logo at `docs/logo.png` and include it in the README header if desired.
 
 ## Support & Contact
-- GitHub: https://github.com/azak70/network_inspector
+- GitHub: https://github.com/azak70/chucker_flutter_inspector
 - Website: https://www.ahmetazak.com.tr
 - Email: info@ahmetazak.com.tr

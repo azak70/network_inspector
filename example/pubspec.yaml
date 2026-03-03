@@ -1,5 +1,5 @@
-name: network_inspector_example
-description: Example app for network_inspector package
+name: chucker_flutter_inspector_example
+description: Example app for chucker_flutter_inspector package
 publish_to: "none"
 version: 0.1.0
 

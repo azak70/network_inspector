@@ -1,4 +1,4 @@
-library network_inspector;
+library chucker_flutter_inspector;
 
 export 'src/inspector.dart';
 export 'src/log_entry.dart';
